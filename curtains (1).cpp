@@ -208,7 +208,7 @@ void callback(char *topic, byte *byteArrayPayload, unsigned int length)
     endStop();
   }
   else {
-  */
+  */  //end stop measures lenght of curtain in steps... commented out for the demonstration
   for (int i = 0; i <= 100; i++)
   {
     String j = String(i);
